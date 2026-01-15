@@ -3,9 +3,10 @@
     <title>Welcome to the app!</title>
 </head>
 <body>
-Hello <?php
-        echo "<font color='red'>World</font>"
-?>!
+
+<h1>Welcome to The App App</h1>
+<a href="contact.php">Contact Us</a>
 
 </body>
 </html>
+

@@ -1,12 +1,6 @@
-<html>
-<head>
-    <title>Welcome to the app!</title>
-</head>
-<body>
+<?php include "includes/header.php"; ?>
 
-<h1>Welcome to The App App</h1>
-<a href="contact.php">Contact Us</a>
+    <h1>Welcome to The App App</h1>
+    <a href="contact.php">Contact Us</a>
 
-</body>
-</html>
-
+<?php include "includes/footer.php"; ?>

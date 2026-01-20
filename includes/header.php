@@ -15,7 +15,15 @@
             <ul class="nav navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li
+                <?php
+
+                if(isset($_SESSION["user"])){
+                    echo '<li class="nav-item">Hello ' + $_SESSION["user"] + "!</li>";
+                }
+
+                <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+                ?>
 
                 <!-- Dropdown Start -->
                 <li class="nav-item dropdown">
